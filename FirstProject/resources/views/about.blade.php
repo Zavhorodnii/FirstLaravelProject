@@ -1,13 +1,10 @@
-<!doctype html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello</h1>
-</body>
-</html>
+@extends('layout')
+
+@section('title')
+    About page
+@endsection
+
+@section('main_content')
+    <h1>About page</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut, dignissimos laboriosam maiores quos sapiente. Amet atque enim error laboriosam magni modi nobis quia repellendus repudiandae. Cum excepturi quisquam reiciendis!</p>
+@endsection
